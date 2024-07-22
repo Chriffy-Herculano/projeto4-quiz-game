@@ -3,8 +3,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import App from './App.vue'
 
-//Para usar requisição https
+
 createApp(App)
-.use(VueAxios, axios)
+.use(VueAxios, axios) //Para usar requisição https
 .mount('#app')
 
